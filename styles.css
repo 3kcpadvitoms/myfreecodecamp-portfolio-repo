@@ -1,0 +1,40 @@
+@media(max-width:720px){
+    #project{
+      width:400px;
+    }
+  }
+
+  #navbar{
+    position:fixed;
+    width: 100%;
+    height: auto;
+    background: rgb(88, 66, 66);
+    display: flex;
+  }
+    .nav-list{
+        list-style: none;
+        font-size: 2rem;
+        margin-left: 2rem;
+        color:#666;
+        background-color: rgb(166, 206, 125);
+        display: flex;
+        justify-content: space-around;
+        justify-items: center;
+    }
+nav.list{
+
+}
+  html{
+    font-size: 92.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+  }
+  
+  body{
+    background:#915f5f;
+  }
+   .welcome-section{
+      padding-top: 40px;
+      font-weight: 500;
+   }
